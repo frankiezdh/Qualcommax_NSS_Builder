@@ -118,7 +118,7 @@ CONFIG_ATH11K_THERMAL=n
 CONFIG_FEED_nss_packages=n
 CONFIG_FEED_sqm_scripts_nss=n
 
-
+# Custom
 CONFIG_BPF=y
 CONFIG_BPF_SYSCALL=y
 CONFIG_BPF_JIT=y
@@ -148,6 +148,20 @@ CONFIG_KERNEL_XDP_SOCKETS=y
 CONFIG_PACKAGE_kmod-xdp-sockets-diag=y
 CONFIG_PACKAGE_kmod-veth=y
 CONFIG_PACKAGE_kmod-tun=y
-CONFIG_PACKAGE_kmod-wireguard=y
 CONFIG_PACKAGE_kmod-sched-core=y
 CONFIG_PACKAGE_kmod-sched-bpf=y
+
+CONFIG_PACKAGE_luci-app-wol=y
+CONFIG_PACKAGE_etherwake=y
+
+CONFIG_PACKAGE_luci-app-ddns=y
+CONFIG_PACKAGE_ddns-scripts=y
+CONFIG_PACKAGE_ddns-scripts-cloudflare=y
+CONFIG_PACKAGE_ddns-scripts-services=y
+CONFIG_PACKAGE_drill=y
+
+CONFIG_PACKAGE_kmod-wireguard=y
+CONFIG_PACKAGE_luci-proto-wireguard=y
+CONFIG_PACKAGE_wireguard-tools=y
+
+CONFIG_PACKAGE_tailscale=y

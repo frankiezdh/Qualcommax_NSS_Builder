@@ -39,6 +39,10 @@ variants:
         url: https://github.com/qosmio/packages-extra
       - name: sqm_nss
         url: https://github.com/JuliusBairaktaris/sqm-scripts-nss
+    packages:
+      - name: luci-app-daed
+        url: https://github.com/QiuSimons/luci-app-daed.git
+
     release:
       prefix: main-nss                    # tag = <prefix>-<UTC timestamp>-<run id>
 
@@ -68,5 +72,7 @@ variants:
         url: https://github.com/hudra0/qosmate.git
       - name: luci-app-qosmate
         url: https://github.com/hudra0/luci-app-qosmate.git
+      - name: luci-app-daed
+        url: https://github.com/QiuSimons/luci-app-daed.git
     release:
       prefix: edma
